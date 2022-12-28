@@ -131,9 +131,17 @@ main {
     gap: 2rem;
 }
 
-.main__text .fa-brands {
+.main__icons .fa-brands {
     color: var(--purple);
     font-size: 2rem;
+}
+
+.main__icons a {
+    transition: transform .2s;
+}
+
+.main__icons a:hover {
+    transform: scale(1.1);
 }
 
 .main__text img {
