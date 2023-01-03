@@ -84,6 +84,7 @@ img {
 
     position: absolute;
     top: -300%;
+    /* top: 50px; */
     right: 0;
 
     transition: top .2s;
